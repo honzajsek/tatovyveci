@@ -1,0 +1,63 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-image: url('http://janmichl.com/parchment.jpg');
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  margin: 20px auto;
+  max-width: 920px;
+  width: 100%;
+  font-size: 0.8125rem;
+}
+
+
+/* styling for on-page bibliography heading */
+.bibliography__heading .bibliography__heading-text {
+  font-size: 2rem;
+  color: #009933;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.bibliography__heading-text .bibliography__heading-text--small {
+  color: #000;
+  font-size: 0.8125rem;
+}
+
+/* styling for publication entries in list */
+.publication-entry { 
+  margin-bottom: 1rem;
+}
+
+.publication-entry .publication-entry__title {
+  margin-bottom: 0.25rem;
+}
+
+.publication-entry .publication-entry__title a {
+  text-decoration: none;
+  color: #0000ee;
+}
+
+.publication-entry .publication-entry__description {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.publication-entry .publication-entry__year {
+  margin-top: 0.25rem;
+  font-weight: 700;
+}
+.publication-entry .publication-entry__year .publication-entry__page {
+  margin-top: 0.25rem;
+  font-weight: 400;
+}
+
+.publication-entry .publication-review {
+  margin-top: 0.25rem;
+}
